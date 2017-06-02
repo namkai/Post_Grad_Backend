@@ -7,5 +7,20 @@
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "name": "post_grad_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namkai/Post_Grad_Backend.git"
+  },
+  "author": "Namkai/Trevor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namkai/Post_Grad_Backend/issues"
+  },
+  "homepage": "https://github.com/namkai/Post_Grad_Backend#readme",
+  "description": ""
 }
