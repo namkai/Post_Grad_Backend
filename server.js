@@ -1,5 +1,5 @@
 'use strict';
-const PORT = 8888;
+const PORT = process.env.PORT || 3001;
 const express = require('express');
 const app = express();
 const users = require('./routers/userRoutes');
