@@ -10,7 +10,11 @@
   "name": "post_grad_backend",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/namkai/Post_Grad_Backend.git"

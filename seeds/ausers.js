@@ -1,6 +1,6 @@
 exports.seed = function (knex, Promise) {
 	// Deletes ALL existing entries
-	return knex('users').del().then(() =>
+	return knex('users').del().then(() = >
 		// Inserts seed entries
 		knex('users').insert([
 			{
@@ -25,5 +25,7 @@ exports.seed = function (knex, Promise) {
 				age: 24,
 				hashed_password: 'grad',
 			},
-		]));
+		]);
+	)
+	;
 };
